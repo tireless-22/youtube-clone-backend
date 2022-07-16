@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\karth\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add donenv
+
+PATH: 
+  C:\Users\karth\AppData\Local\cloud-code\installer\google-cloud-sdk\bin;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\karth\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.7;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\openjdk-8u275-b01\bin;C:\Users\karth\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk-15.0.1\bin;C:\Program Files\Java\jdk1.8.0_211\bin;"C:\Program Files;C:\Winnt;C:\Winnt\System32";";C:\Windows\System32";C:\Program Files (x86)\php;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;";C:\msysgit\bin\;C:\msysgit\mingw\bin\";C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.3.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Go\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\karth\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\karth\AppData\Local\Programs\Python\Python39\;C:\Users\karth\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.8;C:\Program Files\JetBrains\PyCharm Community Edition 2020.2.2\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2020.2.3\bin;C:\Program Files\Java\jdk-15.0.1\bin;C:\Users\karth\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\heroku\bin;C:\Users\karth\AppData\Local\Microsoft\WindowsApps;C:\Users\karth\AppData\Local\Programs\Microsoft VS Code\bin;";C:\MinGW\bin";C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\karth\AppData\Roaming\npm;C:\Users\karth\go\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\bin;
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/donenv: Not found
+      at Request.params.callback [as _callback] (C:\Users\karth\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67029:18)
+      at Request.self.callback (C:\Users\karth\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (C:\Users\karth\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (C:\Users\karth\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "youtube-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type":"module",
+    "scripts": {
+      "start":"nodemon index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.18.1",
+      "mongoose": "^6.4.4",
+      "nodemon": "^2.0.19"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
