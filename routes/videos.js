@@ -13,6 +13,7 @@ router.get("/trend", random)
 router.get("/random",trend)
 router.get("/sub",verifyToken,sub)
 router.get("/tags", getByTag);
-router.get("/search",search)
+router.get("/search", search)
+
 
 export default router;
